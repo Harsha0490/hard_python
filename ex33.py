@@ -21,6 +21,15 @@ for num in numbers:
     print num
 
 
+i = 0
+numbers = []
+
+for i in range(0, 10):
+    print "Adding %d to numbers." % i
+    numbers.append(i)
+
+print numbers
+
 # Original Code:
 # i = 0
 # numbers = []
